@@ -14,7 +14,7 @@ end
 
 package 'git'
 
-file '/home/ubuntu/motd' do
+file '/home/spfm/motd' do
   content 'This is the property of Soham Mondal'
   action :create
   owner 'root'
